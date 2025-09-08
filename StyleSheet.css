@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,14 +7,14 @@
     box-sizing: border-box;
 }
 
-#businessName{
+.headings{
     font-family: "Michroma", sans-serif;
     font-weight: 400;
     font-style: normal;
 
 }
 
-#mainPara{
+.mainPara{
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -27,6 +28,23 @@
     height: 100vh;
 }
 
+.KotaPriceContainer {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float:inline-start;
+    width: 180px;
+    box-align:center;
+  }
+  
+.KotaPriceContainer:hover {
+    border: 1px solid #777;
+  }
+  
+.KotaPriceContainer img {
+    width: 100%;
+    height: auto;
+  }
+  
 .header2{
     color: whitesmoke;
 }
@@ -194,32 +212,6 @@ main{
     font-size: 19px;
     color:white;
 }
-
-.content4{
-    text-align: center;
-}
-
-div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-    box-align:center;
-  }
-  
-  div.gallery:hover {
-    border: 1px solid #777;
-  }
-  
-  div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-  
-  div.desc {
-    padding: 15px;
-    text-align: center;
-  }
 
   .column {
     float: left;
