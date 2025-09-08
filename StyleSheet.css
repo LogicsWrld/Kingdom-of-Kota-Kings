@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -5,10 +6,24 @@
     box-sizing: border-box;
 }
 
- main  {
+#businessName{
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+#mainPara{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ #homeMain{
     background-image: url("Images/homePage.jpg");
-    background-position: center;
-    background-size: cover;
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
     height: 100vh;
 }
 
@@ -217,7 +232,8 @@ div.gallery {
     display: table;
     clear: both;
   }
-  
+ 
+  /*
   @media (max-width: 960px) {
     .navbar {
         padding: 5px;
@@ -332,13 +348,15 @@ form button{
     margin: 20px auto 0;
     border-radius: 30px;
 }
+    */
 
 footer {
     background-color: black;
     color: white;
     text-align: center;
-    position: fixed;
-    bottom: 0;
+    /*
+    position:relative;
     width: 100%;
     padding: 5px 0;
+    */
 }
